@@ -92,8 +92,13 @@ uncharacterized_change_in_nucleotide_sequence
         HINT: uniq option
 
 
+<<<<<<< HEAD
 /Users/cmdb/cmdb-bootcamp-homework $ grep -v "^#" dmel-all-r5.57-removeFASTA.gff | cut -f3 | sort | uniq -c > features_count-dmel-all-r5.57-removeFASTA.txt
 
+=======
+
+/Users/cmdb/cmdb-bootcamp-homework $  grep -v "^#" dmel-all-r5.57-removeFASTA.gff | cut -f3 | sort | uniq -c > features_count-dmel-all-r5.57-removeFASTA.txt
+>>>>>>> 0a1e6f3ef214e3c8f41a3812e9dcc5542ea7d3e8
 
  973 BAC_cloned_genomic_insert
 108709 CDS
