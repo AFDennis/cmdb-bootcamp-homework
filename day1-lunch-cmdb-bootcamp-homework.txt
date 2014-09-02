@@ -90,6 +90,11 @@ uncharacterized_change_in_nucleotide_sequence
 
 4. How many of each feature type are there
         HINT: uniq option
+
+
+/Users/cmdb/cmdb-bootcamp-homework $ grep -v "^#" dmel-all-r5.57-removeFASTA.gff | cut -f3 | sort | uniq -c > features_count-dmel-all-r5.57-removeFASTA.txt
+
+
  973 BAC_cloned_genomic_insert
 108709 CDS
    1 DNA_motif
